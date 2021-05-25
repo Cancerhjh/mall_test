@@ -1,6 +1,4 @@
-<!-- 模仿天猫整站ssm 教程 为how2j.cn 版权所有-->
-<!-- 本教程仅用于学习使用，切勿用于非法用途，由此引起一切后果与本站无关-->
-<!-- 供购买者学习，请勿私自传播，否则自行承担相关法律责任-->
+
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 		 pageEncoding="UTF-8" isELIgnored="false"%>
@@ -29,22 +27,23 @@
 
 
 
-        var left = window.innerWidth/2+162;
-        $("div.loginSmallDiv").css("left",left);
+        /*var left = window.innerWidth/2;
+        $("div.loginSmallDiv").css("left",left);*/
     })
 </script>
 
 
-<div id="loginDiv" style="position: relative">
+<div id="loginDiv" style="background-color: #081c30" >
 
-	<div class="simpleLogo">
-		<a href="${contextPath}"><img src="img/site/simpleLogo.png"></a>
+	<div class="backhome">
+		<a href="${contextPath}/forehome">返回首页</a>
 	</div>
 
 
-	<img id="loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackground.png">
+	<%--<img id="loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackGround.png">--%>
 
-	<form class="loginForm" action="forelogin" method="post">
+	<form class="loginForm" action="forelogin" method="post" >
+
 		<div id="loginSmallDiv" class="loginSmallDiv">
 			<div class="loginErrorMessageDiv">
 				<div class="alert alert-danger" >
@@ -67,7 +66,7 @@
 				</span>
 				<input id="password" name="password" type="password" placeholder="密码" type="text">
 			</div>
-			<span class="text-danger">不要输入真实的天猫账号密码</span><br><br>
+			<br><br>
 
 
 			<div>
@@ -78,6 +77,7 @@
 				<button class="btn btn-block redButton" type="submit">登录</button>
 			</div>
 		</div>
+
 	</form>
 
 

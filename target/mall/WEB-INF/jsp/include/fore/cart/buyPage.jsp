@@ -1,6 +1,4 @@
-<!-- 模仿天猫整站ssm 教程 为how2j.cn 版权所有-->
-<!-- 本教程仅用于学习使用，切勿用于非法用途，由此引起一切后果与本站无关-->
-<!-- 供购买者学习，请勿私自传播，否则自行承担相关法律责任-->
+
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8" isELIgnored="false"%>
@@ -8,7 +6,6 @@
   <form action="forecreateOrder" method="post">
   
 	<div class="buyFlow">
-		<img class="pull-left" src="img/site/simpleLogo.png">
 		<img class="pull-right" src="img/site/buyflow.png">
 		<div style="clear:both"></div>
 	</div>
@@ -54,9 +51,7 @@
 			<thead>
 				<tr>
 					<th colspan="2" class="productListTableFirstColumn">
-						<img class="tmallbuy" src="img/site/tmallbuy.png">
-						<a class="marketLink" href="#nowhere">店铺：天猫店铺</a>
-						<a class="wangwanglink" href="#nowhere"> <span class="wangwangGif"></span> </a>
+
 					</th>
 					<th>单价</th>
 					<th>数量</th>

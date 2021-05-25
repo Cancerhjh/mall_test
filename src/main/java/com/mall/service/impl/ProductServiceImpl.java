@@ -127,7 +127,7 @@ public class ProductServiceImpl implements ProductService {
             setSaleAndReviewNumber(p);
         }
     }
-
+//首页商品搜索
     @Override
     public List<Product> search(String keyword) {
         ProductExample example = new ProductExample();
